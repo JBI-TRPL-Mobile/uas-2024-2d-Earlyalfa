@@ -73,7 +73,28 @@ class LoginScreen extends StatelessWidget{
                 // Divider with text
                 Row(
                   children:[
-                    
+                    Expanded(
+                      child: Divider(
+                        thickness: 1,
+                        color: Colors.grey[400],
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                      child: Text("or sign in with"),
+                      ),
+                      Expanded(
+                        child: Divider(
+                          thickness: 1,
+                          color: Colors.grey[400],
+                        ),
+                      ),
+                   ],
+                  ),
+                  
+
+                        ))
+                      ),)
                   ]
                 }
                 
